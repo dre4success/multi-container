@@ -2,7 +2,6 @@ sudo: required
 services:
   - docker
 
-
 before_install:
   - docker build -t dre4success/react-test -f ./client/Dockerfile.dev ./client
 
